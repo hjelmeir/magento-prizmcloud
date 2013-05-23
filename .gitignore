@@ -20,6 +20,7 @@ app/code/community/Phoenix/*
 app/etc/*.*
 app/etc/modules/Mage*
 app/etc/Gdv*
+app/etc/Phoenix*
 .DS_Store
 *.DS_Store*
 
