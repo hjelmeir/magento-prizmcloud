@@ -12,7 +12,7 @@ var/*
 mage
 app/design/*
 app/locale/*
-app/code/community/*
+app/code/community/Phoenix/*
 app/etc/*
 .DS_Store
 *.DS_Store*
@@ -23,4 +23,4 @@ app/etc/*
 !app/code/community/Accusoft/*
 !app/code/community/Accusoft/Prizmclouddocsviewer/*
 
-!/app/etc/modules/Accusoft_Prizmclouddocsviewer.xml
+!app/etc/modules/Accusoft_Prizmclouddocsviewer.xml
