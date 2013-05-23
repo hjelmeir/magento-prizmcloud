@@ -10,9 +10,9 @@ View a [demo](http://prizmcloud.accusoft.com/demo.html)
 
 1. Download and unzip all files to corresponding directories. "Accusoft" folder goes into site/app/code/community and "Accusoft_PrizmclouddocsViewer" file goes to site/app/etc/modules
 2. Login to your site and go to Admin > System > Configuration > Advanced > Advanced and see if your module is Enabled
-3. Go to Admin > System > Configuration > General > PrizmCloud Document Viewer and add default settings
+3. Go to Admin > System > Configuration > General > PrizmCloud Document Viewer and configure your settings
 
-### Add to a Page
+### Add the Viewer to a Page
 
 Within a cms page, add this block tag to the content section editor
 
@@ -25,10 +25,10 @@ Within a cms page, add this block tag to the content section editor
 * **width**: is the viewer width in px
 * **height**: is the viewer height in px
 * **print_button**: options 'Yes' or 'No'
-* **toolbar_color**: hex color, no '#' for example 'CCCCCC'
+* **toolbar_color**: hex color, no '#' for example "CCCCCC"
 
 For example:
 ```
-{{block type="accusoft_prizmclouddocsviewer/viewer" ptype="html5"}}
+{{block type="accusoft_prizmclouddocsviewer/viewer" ptype="html5" width=800 height=600 doc_url="http://domain.com/path/to/file.doc" print_button="Yes" toolbar_color="999999"}}
 ```
 
