@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>PrizmClouddocsviewer</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/GPL-3.0">GPLv3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Embed our document viewer in your site. Your visitors view your documents in any of 300+ file types. Just like that.</summary>
+    <description>PrizmCloud Embedded Document Viewer allows you to view your documents in the Cloud while keeping them on your server and in your control. No installation is required.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Accusoft</name><user>prizmcloud</user><email>support@accusoft.com</email></author></authors>
+    <date>2013-05-23</date>
+    <time>15:17:43</time>
+    <contents><target name="magecommunity"><dir name="Accusoft"><dir name="Prizmclouddocsviewer"><dir name="Adminhtml"><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Ptype.php" hash="9ad9c6f804594ce03a1afa467af9674b"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name=".DS_Store" hash="d5834ca00420afc7c72b7e12fadcc950"/></dir><file name=".DS_Store" hash="30e78335bd778fee46b89b29c9330c01"/></dir><file name=".DS_Store" hash="f315d7ba2f9d9a5e6166bbdad1b956a4"/></dir><file name=".DS_Store" hash="13b3c2152f35da3edf3aacc3ea52a7ce"/></dir><dir name="Block"><dir name="Adminhtml"><file name="Prizmclouddocsviewer.php" hash="2c66d93d7b8dfabf1a1403bcd18abc1d"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name="viewer.php" hash="feaded1368c6c3dfbc18c395a8214180"/><file name=".DS_Store" hash="8f7326c5c7cc99e99ece723e61eae297"/></dir><dir name="Helper"><file name="Data.php" hash="66057cfb95dd43e4faa7e224ae815cab"/></dir><dir name="Model"><file name="prizmclouddocsviewer.php" hash="2798a97fa1836ce53558726f41aa82ab"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="controllers"><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a297ac65896cb3925b84c3c23730f76e"/><file name="config.xml" hash="71399ed5dad6babc1c8320d97163d112"/><file name="system.xml" hash="b9603e18df24d5397053f1619f6cdb1c"/></dir><dir name="sql"><dir name="Prizmclouddocsviewer_setup"><file name="install-0.1.0.php" hash="80509794181e7741898136e8094e0040"/><file name="mysql4-install-0.1.0" hash="ff4a22a88da7623de400f7e5fba97a4e"/></dir></dir><file name=".DS_Store" hash="c468cf79f5fb366641b6a0a5e399e8f5"/></dir><file name=".DS_Store" hash="ae20253499a4168dbdd6ebf11015aec2"/></dir></target><target name="mageetc"><dir name="modules"><file name="Accusoft_Prizmclouddocsviewer.xml" hash="1da3965ca0adb5722b52254378bc99f0"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.4.8</max></php></required></dependencies>
+</package>
