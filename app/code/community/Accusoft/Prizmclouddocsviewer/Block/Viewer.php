@@ -4,7 +4,11 @@ class Accusoft_Prizmclouddocsviewer_Block_Viewer extends Mage_Core_Block_Abstrac
 {
   protected function _toHtml()
   {
-    $html = '<div class="prizmcloud">';
+    $style = '<style>div.prizmcloud .prizmcloud_iframe {
+  border:0;
+  max-width:100%;
+}</style>';
+    $html = '<div class="prizmcloud">' . $style;
 
     if(Mage::getStoreConfig('prizmcloud/settings/pkey'))
     {
