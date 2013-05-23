@@ -1,2 +1,28 @@
-magento-prizmcloud
-==================
+PrizmCloud Emebbed Document Viewer for Magento
+================================================
+
+Magento Extension for PrizmCloud Embedded Document Viewer. Embed our document viewer in your site. Your visitors view your documents in any of 300+ file types. Just like that.
+
+You will need a PrizmCloud account to use PrizmCloud Document Viewer. [PrizmCloud Sign Up](http://prizmcloud.accusoft.com/register.html "PrizmCloud") 
+
+View a [demo](http://prizmcloud.accusoft.com/demo.html)
+
+##Installation Instructions
+
+1. Download and unzip all files to corresponding directories. "Accusoft" folder goes into site/app/code/community and "Accusoft_PrizmclouddocsViewer" file goes to site/app/etc/modules
+2. Login to your site and go to Admin > System > Configuration > Advanced > Advanced and see if your module is Enabled
+3. Go to Admin > System > Configuration > General > PrizmCloud Document Viewer and add default settings
+4. Within a cms page, add this block tag to the content section
+```html
+{{block type="accusoft_prizmclouddocsviewer/viewer"}}
+```
+* This tag accepts parameters: for example
+```html
+{{block type="accusoft_prizmclouddocsviewer/viewer" ptype="html5"}}
+```
+* ptype: is the document type (either flash or html5)
+* doc_url: is the document url
+* width: is the viewer width in px
+* height: is the viewer height in px
+* print_button: options 'Yes' or 'No'
+* toolbar_color: hex color, no '#' for example 'CCCCCC'
