@@ -14,12 +14,12 @@ class Accusoft_Prizmclouddocsviewer_Block_Viewer extends Mage_Core_Block_Abstrac
     {
       $url_base      = 'http://connect.ajaxdocumentviewer.com/?key=';
       $pkey          = Mage::getStoreConfig('prizmcloud/settings/pkey');
-      $ptype         = ($this->getvtype()) ? $this->getvtype() : Mage::getStoreConfig('prizmcloud/settings/ptype');
+      $ptype         = ($this->getv_type()) ? $this->getv_type() : Mage::getStoreConfig('prizmcloud/settings/ptype');
       $doc_url       = ($this->getdoc_url()) ? $this->getdoc_url() : Mage::getStoreConfig('prizmcloud/settings/doc_url');
-      $width         = ($this->getviewer_width()) ? $this->getviewer_width() : Mage::getStoreConfig('prizmcloud/settings/width');
+      $width         = ($this->getv_width()) ? $this->getv_width() : Mage::getStoreConfig('prizmcloud/settings/width');
       $vwidth        = ($width) ? '&viewerwidth=' . $width : '';
       $iwidth        = ($width) ? 'width="'.($width + 20).'"' : '';
-      $height        = ($this->getviewer_height()) ? $this->getviewer_height() : Mage::getStoreConfig('prizmcloud/settings/height');
+      $height        = ($this->getv_height()) ? $this->getv_height() : Mage::getStoreConfig('prizmcloud/settings/height');
       $vheight       = ($height) ? '&viewerheight=' . $height : '';
       $iheight       = ($height) ? 'height="'.($height + 20).'"' : '';
 
