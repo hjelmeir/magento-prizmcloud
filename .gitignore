@@ -21,4 +21,6 @@ app/etc/*
 !.gitignore
 !app/code/community/Accusoft/
 !app/code/community/Accusoft/*
+!app/code/community/Accusoft/Prizmclouddocsviewer/*
+
 !/app/etc/modules/Accusoft_Prizmclouddocsviewer.xml
