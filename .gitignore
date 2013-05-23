@@ -1,0 +1,5 @@
+/*
+/*/
+!.gitignore
+!app/code/community/Accusoft/
+!app/etc/modules/*Accusoft_Prizmclouddocsviewer.xml
