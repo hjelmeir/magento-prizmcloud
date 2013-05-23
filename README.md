@@ -19,7 +19,8 @@ Within a cms page, add this block tag to the content section editor
 ```
 {{block type="accusoft_prizmclouddocsviewer/viewer"}}
 ```
-This tag accepts the following parameters
+This tag accepts the following **optional** parameters: *(if these parameters are not present, the admin configurations will be used)*
+
 * **ptype**: is the document type (either flash or html5)
 * **doc_url**: is the document url
 * **width**: is the viewer width in px
