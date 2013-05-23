@@ -14,6 +14,8 @@ app/design/*
 app/locale/*
 app/code/community/*
 app/etc/*
+.DS_Store
+*.DS_Store*
 
 !app/code/community/Accusoft/*
 !.gitignore
