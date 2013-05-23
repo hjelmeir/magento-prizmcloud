@@ -21,15 +21,15 @@ Within a cms page add this block tag to the content section editor (or within an
 ```
 This tag accepts the following **optional** parameters: *(if these parameters are not present, the admin configurations will be used)*
 
-* **ptype**: is the viewer type (either flash or html5)
+* **vtype**: is the viewer type (either flash or html5)
 * **doc_url**: is the document url
-* **width**: is the viewer width in px
-* **height**: is the viewer height in px
+* **viewer_width**: is the viewer width in px
+* **viewer_height**: is the viewer height in px
 * **print_button**: options 'Yes' or 'No'
 * **toolbar_color**: hex color, no '#' for example "CCCCCC"
 
 For example:
 ```
-{{block type="accusoft_prizmclouddocsviewer/viewer" vtype="html5" width=800 height=600 doc_url="http://domain.com/path/to/file.ext" print_button="Yes" toolbar_color="999999"}}
+{{block type="accusoft_prizmclouddocsviewer/viewer" vtype="html5" viewer_width=800 viewer_height=600 doc_url="http://domain.com/path/to/file.ext" print_button="Yes" toolbar_color="999999"}}
 ```
 

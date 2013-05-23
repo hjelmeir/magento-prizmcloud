@@ -24,7 +24,7 @@ class Accusoft_Prizmclouddocsviewer_Block_Viewer extends Mage_Core_Block_Abstrac
       $iheight       = ($height) ? 'height="'.($height + 20).'"' : '';
 
       if(
-        ($this->getprint_button() && $this->getprint_button() === 1) ||
+        ($this->getprint_button() && $this->getprint_button() === 'Yes') ||
         (Mage::getStoreConfig('prizmcloud/settings/print_button') && Mage::getStoreConfig('prizmcloud/settings/print_button') === 1))
       {
         $print_button = 'Yes';
