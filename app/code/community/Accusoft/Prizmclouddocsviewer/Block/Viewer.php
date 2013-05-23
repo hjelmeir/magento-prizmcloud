@@ -14,7 +14,7 @@ class Accusoft_Prizmclouddocsviewer_Block_Viewer extends Mage_Core_Block_Abstrac
     {
       $url_base      = 'http://connect.ajaxdocumentviewer.com/?key=';
       $pkey          = Mage::getStoreConfig('prizmcloud/settings/pkey');
-      $ptype         = ($this->getptype()) ? $this->getptype() : Mage::getStoreConfig('prizmcloud/settings/ptype');
+      $ptype         = ($this->getvtype()) ? $this->getvtype() : Mage::getStoreConfig('prizmcloud/settings/ptype');
       $doc_url       = ($this->getdoc_url()) ? $this->getdoc_url() : Mage::getStoreConfig('prizmcloud/settings/doc_url');
       $width         = ($this->getviewer_width()) ? $this->getviewer_width() : Mage::getStoreConfig('prizmcloud/settings/width');
       $vwidth        = ($width) ? '&viewerwidth=' . $width : '';

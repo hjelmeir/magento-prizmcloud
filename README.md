@@ -14,14 +14,14 @@ View a [demo](http://prizmcloud.accusoft.com/demo.html)
 
 ### Add the Viewer to a Page
 
-Within a cms page, add this block tag to the content section editor
+Within a cms page add this block tag to the content section editor (or within any editor)
 
 ```
 {{block type="accusoft_prizmclouddocsviewer/viewer"}}
 ```
 This tag accepts the following **optional** parameters: *(if these parameters are not present, the admin configurations will be used)*
 
-* **ptype**: is the document type (either flash or html5)
+* **ptype**: is the viewer type (either flash or html5)
 * **doc_url**: is the document url
 * **width**: is the viewer width in px
 * **height**: is the viewer height in px
@@ -30,6 +30,6 @@ This tag accepts the following **optional** parameters: *(if these parameters ar
 
 For example:
 ```
-{{block type="accusoft_prizmclouddocsviewer/viewer" ptype="html5" width=800 height=600 doc_url="http://domain.com/path/to/file.doc" print_button="Yes" toolbar_color="999999"}}
+{{block type="accusoft_prizmclouddocsviewer/viewer" vtype="html5" width=800 height=600 doc_url="http://domain.com/path/to/file.ext" print_button="Yes" toolbar_color="999999"}}
 ```
 
